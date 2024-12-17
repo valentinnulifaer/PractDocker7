@@ -3,11 +3,11 @@ name: Code Style Check
 on:
   push:
     branches:
-      - pipeline_branch
+      - ZZZ
 
   pull_request:
     branches:
-      - pipeline_branch
+      - ZZZ
 
 jobs:
   checkstyle_project:
